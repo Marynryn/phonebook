@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  width: 280px;
-  @media screen and (min-width: 375px) {
-    width: 350px;
+
+  width: 100%;
+  @media screen and (min-width: 767px) {
+    width: 300px;
   }
 }
 
@@ -16,8 +16,10 @@
   font-family: 'DM Sans', sans-serif;
   color: #eae4f0;
   width: 150px;
+  margin: 0;
+  text-align: left;
   @media screen and (min-width: 375px) {
-    width: 250px;
+    width: 100%;
   }
   text-shadow: 1px 1px 0px #957dad, 1px 2px 0px #957dad, 1px 3px 0px #957dad,
     1px 4px 0px #957dad, 1px 5px 0px #957dad, 1px 6px 0px #957dad;
@@ -26,7 +28,7 @@
   width: 100px;
   font-family: Poppins;
   display: flex;
-  height: 49px;
+  height: 30px;
   justify-content: center;
   align-items: center;
   border: none;

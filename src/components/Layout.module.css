@@ -1,7 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
-
-html,
-body {
+.body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -11,18 +8,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(/src/img/Desktop/bg8.jpg);
+  background-image: url('/src/img/Desktop/bg8.jpg');
   background-size: cover;
   /* background-position: center; */
   background-repeat: no-repeat;
 }
 @media only screen and (min-resolution: 192dpi) {
-  body {
-    background-image: url('/src/img/Desktop/bg8\(2x\).jpg');
+  .body {
+    background-image: url('/src/img/Desktop/bg8(2x).jpg');
   }
 }
 @media only screen and (max-width: 767px) {
-  body {
+  .body {
     background-image: url('/src/img/Mobile/bg8.jpg');
     @media only screen and (min-resolution: 192dpi) {
       background-image: url('/src/img/Mobile/bg8(2x).jpg');
@@ -30,14 +27,10 @@ body {
   }
 }
 @media only screen and (max-width: 1440px) {
-  body {
+  .body {
     background-image: url('/src/img/Tablet/bg8.jpg');
     @media only screen and (min-resolution: 192dpi) {
       background-image: url('/src/img/Tablet/bg8(2x).jpg');
     }
   }
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

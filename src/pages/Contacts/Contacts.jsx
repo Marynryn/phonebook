@@ -6,7 +6,7 @@ const Contacts = () => {
 
 
     return (
-        <div>
+        <div className={css.section}>
             <h1 className={css.header1}>Phonebook</h1>
             <Form />
             <h2 className={css.header2}>Contacts</h2>
