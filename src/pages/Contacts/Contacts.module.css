@@ -1,0 +1,21 @@
+.header1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+  color: #eae5f0;
+
+  text-shadow: 1px 1px 0px #957dad, 1px 2px 0px #957dad, 1px 3px 0px #957dad,
+    1px 4px 0px #957dad, 1px 5px 0px #957dad, 1px 6px 0px #957dad;
+}
+
+.header2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+  color: #e9e6ec;
+
+  text-shadow: 1px 1px 0px #957dad, 1px 2px 0px #957dad, 1px 3px 0px #957dad,
+    1px 4px 0px #957dad, 1px 5px 0px #957dad, 1px 6px 0px #957dad;
+}
