@@ -13,7 +13,7 @@
   border-radius: 30px;
   margin: 0 auto;
   @media screen and (min-width: 375px) {
-    width: 352px;
+    width: 300px;
   }
 }
 

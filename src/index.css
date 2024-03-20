@@ -11,8 +11,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(/src/img/Desktop/bg8.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
 }
-
+@media only screen and (min-resolution: 192dpi) {
+  body {
+    background-image: url('/src/img/Desktop/bg8\(2x\).jpg');
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url('/src/img/Mobile/bg8.jpg');
+    @media only screen and (min-resolution: 192dpi) {
+      background-image: url('/src/img/Mobile/bg8(2x).jpg');
+    }
+  }
+}
+@media only screen and (max-width: 1440px) {
+  body {
+    background-image: url('/src/img/Tablet/bg8.jpg');
+    @media only screen and (min-resolution: 192dpi) {
+      background-image: url('/src/img/Tablet/bg8(2x).jpg');
+    }
+  }
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
