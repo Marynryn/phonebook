@@ -9,7 +9,7 @@
   padding: 24px;
   border-radius: 8px;
   background: #fff;
-  /* width: 270px; */
+  width: 230px;
   border-radius: 30px;
   margin: 0 auto;
   @media screen and (min-width: 375px) {
@@ -79,7 +79,7 @@
 }
 
 .button {
-  width: 230px;
+  width: 180px;
   font-family: Poppins;
   display: flex;
   height: 49px;

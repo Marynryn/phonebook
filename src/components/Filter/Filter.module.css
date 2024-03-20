@@ -3,7 +3,7 @@
   padding: 24px;
   border-radius: 8px;
   background: #fff;
-
+  width: 250px;
   border-radius: 30px;
   margin: 0 auto;
   @media screen and (min-width: 375px) {
